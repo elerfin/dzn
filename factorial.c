@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main () {
-    int x, y, z=1;
-    printf("Enter number");
-    scanf("%d", &x);
-    for(y=1; y <= x; y++)
-        z=z*y;
-    printf("%d!=%d", x, z);
+    int n;
+    int y;
+    int f=1;
+    printf("Enter number ");
+    scanf("%d", &n);
+    for(y=1; y <= n; y++)
+        f=f*y;
+    printf("%d!=%d", n, f);
 }
